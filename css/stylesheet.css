@@ -1,0 +1,105 @@
+body {
+    font-family: Arial;
+    box-sizing: border-box;   
+    background-color: #18A383;
+}
+
+.frm {
+    background-color: white;
+    border-radius: 3px;
+    color: #999;
+    font-size: 0.8em;
+    padding: 10px;
+    margin-left: 250px;
+    width: 700px;
+
+}
+label {
+    border: 0;
+    outline: none;
+    background-color: white;
+    color: #999;
+    font-size: large;
+}
+h1, h2{
+    margin-left: 450px;
+}
+a {
+    font-size: 20px;
+    margin: 30px; 
+    text-decoration: none;
+}
+a:link {
+    color: rgb(13, 106, 70);
+}
+a:hover {
+    text-decoration: underline;
+    background: rgb(117, 184, 147);
+    color: rgb(210, 225, 210);
+}
+
+.field{
+    outline: none;
+    border: solid 1px #ccc;
+    padding: 10px;
+    width: 680px;
+    background-color: white;
+    font-size: large;
+}
+.field:focus {
+    border-color: #18A383;
+}
+.btn {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0,3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    margin-left: 220px;
+    width: 200px;
+    font-size: 20px;
+}
+.btn-green {
+    color: rgb(13, 106, 70);
+    background-color: #7bc07d;
+}
+.btn-green:hover {
+    background-color: #165017;
+}
+.btn-green:active {
+    background-color: #29962A;
+}
+/*listas*/
+#main-container {
+    margin: 150px auto;
+    width: 1200px;
+    background-color: white;
+    margin-top: 5px;
+}
+table {
+    text-align:center;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+td {
+    width: 100px;
+    padding: 20px;
+}
+tr {
+   width: 1000px;
+}
+thead {
+    background-color:teal;
+    border-bottom: solid 5px #0F362D;
+    height: 50px;
+   
+}
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+tr:hover td {
+    background-color:teal;
+    color: white;
+}
